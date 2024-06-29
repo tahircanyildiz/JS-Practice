@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>type conversion</title>
+</head>
+<body>
+    <script>
+        /*
+    ------------------- TÜR DÖNÜŞÜMLERİ -------------------
+    strings, numbers, booleans, undefined, and null. 
+    object , function
+*/
+
+
+//String veri tipinden number veri tipine dönüştürmek..
+
+
+// let a =5;
+// let b =Number("10");
+// console.log(a+b);
+
+// let c = b;
+// console.log(typeof c);
+// console.log(a+c);
+
+// parseInt()
+
+
+ //console.log(window);
+
+// let a = 8;
+// let b = parseFloat("12.3");
+// console.log(b);
+// console.log(typeof b);
+
+
+//NUMBER TİPİNDEN STRİNG VERİ TİPİNE DÖNÜŞTÜRMEK
+
+
+// let x = String(55);
+//  x  = (55).toString();
+// console.log(typeof x);
+// console.log(x);
+
+
+// let sonuc = String(true);
+// console.log(typeof sonuc);
+// console.log(sonuc);
+
+
+//let a  = Number("B");
+// Not a Number = Bir sayı değil
+// console.log(a);
+
+
+// let rakamlar = String([1,2,3,4]);
+
+// console.log(typeof rakamlar);
+// console.log(rakamlar);
+
+// rakamlar = Number([1,2,3,4]);
+// console.log(rakamlar);
+;
+const data={name:"ali"};
+console.log(data.name);
+data.name="blabla";
+console.log(data.name);
+//data=["mert"];
+data.name=["mert"];
+console.log(data.name);
+console.log(data);
+data.age=23;
+console.log(data);
+
+
+debugger;
+var name="tahir";
+const person = {
+    name: "John",
+    greet: function() {
+        console.log("Hello, " + this.name);
+    }
+};
+person.greet();  
+console.log(person.greet);
+const greet = person.greet;
+greet();
+    </script>
+</body>
+</html>

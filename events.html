@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="P1"> Selamlar, bu bir paragraftır.</p> 
+    <button class="button" onclick="changeColor()">Renk Değiştir</button>
+    
+<script>
+function changeColor() {
+    var element = document.getElementById("P1"); 
+    if(element.style.color == "black")
+    element.style.color = "magenta"; 
+    else
+    element.style.color = "black"; 
+   
+}
+
+</script>
+    <button class="button" onmouseover="mouseover()" onmouseout="mouseout()">CLICK ME !!</button> 
+<script>
+    function mouseover() {
+        var element = document.getElementById("P1");
+        element.innerHTML = "Mouse Butonun Üzerine Geldi.";
+    }
+    function mouseout() {
+        var element = document.getElementById("P1");
+        element.innerHTML = "Mouse Butonun Üzerinden Gitti.";
+    }
+    </script> 
+</body>
+</html>
