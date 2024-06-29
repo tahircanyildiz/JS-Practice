@@ -8,7 +8,7 @@ const yakitMetni = "1-Dizel"+yeniSatir
 
 let yakitTipi = prompt(yakitMetni);
 if(yakitTipi=="1" || yakitTipi=="2" || yakitTipi=="3"){
-let yakitLitresi = Number(prompt("Yakıt litresini giriniz"));
+let yakitLitresi = Number(prompt("Yakit litresini giriniz"));
 let bakiye = Number(prompt("Bakiyenizi giriniz"));
     
     if(yakitTipi=="1"){
