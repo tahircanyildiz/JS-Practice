@@ -182,3 +182,14 @@ for (const value of myIterable) {console.log(value);}
 // Output:
 // First
 // Second
+
+
+//Sets oluşturma
+// Create a Set
+const letters = new Set(["a","b","c"]);
+
+// List all entries
+let tmp = "";
+letters.forEach (function(value) {
+  tmp += value;
+})
