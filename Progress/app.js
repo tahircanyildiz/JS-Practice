@@ -40,3 +40,6 @@ function update(){
         next.disabled = false;
     }
 }
+
+
+let data = []
